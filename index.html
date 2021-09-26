@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="header">
+        <p>Register for</p>
+        <h1>Full stack conference</h1>
+    </div>
+
+
+    <form action="index.html" method="POST">
+        <p>*-required field</p>
+
+        <div class="box">
+        <fieldset id="basic">
+            <legend>Basic info</legend>
+
+            <label for="name">Name: *</label>
+            <input type="text" id="user_name" name="user_name">
+
+            <label for="email">E-mail adress: *</label>
+            <input type="email" id="user_email" name="user_email">
+
+            </fieldset>
+
+            <fieldset id="job">
+
+            <label for="job">Job role</label>
+
+            <div class="job_box">
+            <select id="job" name="user_job">
+                <option disabled selected>Select job role</option>
+                <option value="web_developer">Web developer</option>
+                <option value="software_developer">Software developer</option>
+                <option value="grafic_designer">Grafic Designer</option>
+            </select>
+            <input type="text" id="other_job" name="user_other" placeholder="Other job ?">
+            </div>
+            </fieldset>
+        
+
+        <fieldset id="shirt">
+            <legend>T-shirt info</legend>
+
+            <div class="box2">
+
+            <label for="size" id="size2">Size</label>
+            <select id="size" name="tshirt_size">
+                <option value="xs">XS</option>
+                <option value="s">S</option>
+                <option value="m">M</option>
+                <option value="l">L</option>
+                <option value="xL">XL</option>
+            </select>
+
+            <label for="design" id="design2">Design</label>
+            <select id="design" name="tshirt_design">
+                <option disabled selected>Select theme</option>
+                <option value="js">Js puns</option>
+                <option value="love">I love js</option>
+            </select>
+            </div>
+
+            <label for="color">Color</label>
+            <select id="color" name="tshirt_color">
+                <option  disabled selected >Select a designed theme above</option>
+                <option value="corn">Cornflower Blue ( Js puns shirt only )</option>
+                <option value="slate">Dark slate Gray ( Js puns shirt only )</option>
+                <option value="gold">Gold ( Js puns shirt only )</option>
+                <option value="tomato">Tomato ( I love Js shirt only )</option>
+                <option value="steel">Steel Blue (I love js shirt only )</option>
+                <option value="dim">Dim gray ( I love js shirt only )</option>
+            </select>
+        </fieldset>
+        </div>
+
+
+        <fieldset id="activites">
+            <legend>Register for activities *</legend>
+
+            <div class="cutie">
+                <div class="check">
+                    <input type="checkbox" id="main" name="main_conference">
+                     <label for="main">Main Conference</label>
+                </div>
+                <div class="img">
+                    <img src="js.png">
+                    <p>$200</p>
+                </div>
+            </div>
+
+            <div class="grid">
+
+
+            <div class="cutie">
+                <div class="check2">
+                    <div class="check">
+                            <input type="checkbox" id="main" name="main_conference">
+                             <label for="react">Javascript libraries workshop</label>
+                    </div>
+                    <div class="details">
+                            <p>Tuesday 9am-11pm</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="react.png">
+                    <p>$100</p>
+                </div>
+            </div>
+
+
+            
+            <div class="cutie">
+                <div class="check2">
+                    <div class="check12">
+                            <input type="checkbox" id="main" name="main_conference">
+                             <label for="node">Node.js workshop</label>
+                    </div>
+                    <div class="details">
+                            <p>Tuesday 1pm-4pm</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="node.jpg" class="big">
+                    <p>$100</p>
+                </div>
+            </div>
+
+
+
+
+            
+            <div class="cutie">
+                <div class="check2">
+                    <div class="check11">
+                            <input type="checkbox" id="main" name="main_conference">
+                             <label for="angular">Javascript Frameworks workshop</label>
+                    </div>
+                    <div class="details">
+                            <p>Tuesday 9am-11pm</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="angular.png" class="big">
+                    <p>$100</p>
+                </div>
+            </div>
+
+
+
+
+            
+            <div class="cutie">
+                <div class="check2">
+                    <div class="check">
+                            <input type="checkbox" id="main" name="main_conference">
+                             <label for="build">Build tools Workshop</label>
+                    </div>
+                    <div class="details">
+                            <p>Tuesday 1pm-4pm</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="build.jpg">
+                    <p>$100</p>
+                </div>
+            </div>
+
+
+
+
+            
+            <div class="cutie">
+                <div class="check2">
+                    <div class="check">
+                            <input type="checkbox" id="main" name="main_conference">
+                             <label for="npm">Npm Workshop</label>
+                    </div>
+                    <div class="details">
+                            <p>Tuesday 9am-12pm</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="npm.png">
+                    <p>$100</p>
+                </div>
+            </div>
+
+
+
+
+            
+            <div class="cutie">
+                <div class="check2">
+                    <div class="check">
+                            <input type="checkbox" id="main" name="main_conference">
+                             <label for="ex">Express Workshop</label>
+                    </div>
+                    <div class="details">
+                            <p>Tuesday 1pm-4pm</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="ex2.jpg">
+                    <p>$100</p>
+                </div>
+            </div>
+            </div>
+
+            <p id="total">Total: $0</p>
+
+        </fieldset>
+
+
+        <fieldset id="pay">
+            <h1>Payment info</h1>
+        <div class="container">
+
+            <div class="cutiuta">
+            <label for="pay">I am going to pay with</label>
+            <select id="payment" name="user_pay">
+                <option disabled selected>Select Payment Option</option>
+                <option value="credit">Credit card</option>
+                <option value="paypal">Paypal</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+            </div>
+
+
+            <div class="cutiuta">
+
+            <label for="expiration">Expiration date</label>
+            <select id="expiration" name="card_expiration">
+                <option disabled selected>Select date</option>
+                <option value="january">01:January</option>
+                <option value="february">02:February</option>
+                <option value="march">03:March</option>
+                <option value="april">04:april</option>
+                <option value="may">05:May</option>
+                <option value="june">06:June</option>
+                <option value="july">07:July</option>
+                <option value="august">08:August</option>
+                <option value="september">09:September</option>
+                <option value="october">10:October</option>
+                <option value="november">11:November</option>
+                <option value="december">12:December</option>
+            </select>
+            </div>
+
+            <div class="cutiuta">
+
+
+            <label for="year">Expiration year</label>
+            <select id="year" name="year_card">
+                <option disabled selected>Select year</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+            </select>
+
+            </div>
+
+
+            <div class="cutiuta">
+
+
+            <label for="number">Card Number: *</label>
+            <input type="text" id="card_number" name="card_number">
+            </div>
+
+            <div class="cutiuta">
+
+            <label for="Zip_code">Zip Code: *</label>
+            <input type="text" id="card_zip" name="card_zip">
+
+            </div>
+
+            <div class="cutiuta">
+
+            <label for="cvv">Cvv: *</label>
+            <input type="text" id="card_cvv" name="card_cvv">
+
+            </div>
+
+            </div>
+
+
+            <div class="cutie2">
+                <h1>Paypal</h1>
+                <p>If you selected the paypal option we will take you to paypal site to setup your billing information,when you click register below</p>
+            </div>
+
+
+            <div class="cutie2 ultim">
+                <h1>Bitcoin</h1>
+                <p>If you selected the bitcoin option we will take you to Coinbase site to setup your billing information.Due to the nature of exchanging bitcoin, all bitcoin transations will be final</p>
+         
+            
+        </fieldset>
+
+        <button type="submit">Register</button>
+    </form>
+    
+</body>
+</html>
